@@ -1,0 +1,41 @@
+.card-outline {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card-img-div {
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    flex-grow: 1;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.card-text p {
+    margin: 0;
+}
+
+.card-title {
+    margin: 10px 0 0 0;
+}
+
+.card-subtitle {
+    font-style: italic;
+    margin: 0;
+    color: grey;
+}
