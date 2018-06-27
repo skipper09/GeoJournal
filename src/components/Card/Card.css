@@ -1,12 +1,13 @@
 .card-outline {
     background-color: white;
-    width: 400px;
+    width: 350px;
     height: 500px;
     padding: 20px;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border-radius: 3px;
 }
 
 .card-img-div {
